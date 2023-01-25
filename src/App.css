@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.conteiner {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  background: #0B2434;
+}
+.title-hold {
+  margin-top: 20px;
+}
+.title-main {
+  font-family: Karla;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  
+}
+.title-main-p {
+  text-align: center;
+  align-items: center;
+  font-family: Inter;
+  color:   #4A4E74;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main-cont {
+  background: #F5F5F5;
+  position: absolute;
+  width: 505px;
+  height: 490px;
+  left: 20px;
+  top: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.die-cont {
+  width: 380px;
+  height: 120px;
+  display: grid;
+  grid-row: 1fr 1fr  ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+  row-gap: 18px;
+}
+
+.dice {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #888888;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Karla', sans-serif;
+  color: #F5F5F5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5035FF;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: 'Karla', sans-serif; 
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.win {
+  font-family: Inter;
+  font-size: 18px;
+  margin-bottom: -25px;
+  color: #123e5a;
+}
